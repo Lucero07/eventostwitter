@@ -4,31 +4,36 @@
 <head>
     <meta charset="utf-8">
     <title>Twitter</title>
+    <link id="estilo" rel="stylesheet" type="text/css" href="estilos.css" />
+    <link rel="shorcut icon" type="image/x-icon" href="assets/twitter.png" />
 </head>
 
 <body>
+    <section class="titulo">
     <h1><b><u>Twitter</b></u></h1>
     <hr>
-    <span>Contador</span>
-    <section >
+  </section>
+    <span id="contador_click">Contador</span>
+    <section>
         <textarea id="comentarios" rows="8" cols="80" placeholder="Comentario"></textarea>
-        <input  id="autor" type="text" placeholder="autor">
-        <span>Contador Caracteres </span>
-        <input  type="button" value="Publicar" onclick="agreagarTwitter()">
+        <label>De:</label><input id="autor" type="text" placeholder="autor">
+        <span id="num_caracteres">140</span>
+        <input type="button" value="Tweet" onclick="agreagarTwitter()">
 
     </section>
     <hr>
-    <section>
-      <h3>Tweeet Stories</h3>
-      <hr>
-        <article id="lista_comentarios">
-
-
+    <section class="lista_tweets">
+        <h3>Tweet Stories</h3>
+        <article class="tweet" id="lista_comentarios">
         </article>
     </section>
-<script src="main.js">
-
-</script>
+    <script src="main.js">
+    </script>
+    <footer id="pie_pagina">
+      <hr>
+        Hecho por: Lucero Ramos Lázaro
+        <hr>
+    </footer>
 </body>
 
 </html>

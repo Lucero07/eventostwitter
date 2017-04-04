@@ -1,0 +1,37 @@
+body {
+    margin-left: 100px;
+    background-color: #A9D0F5;
+    width: 80%;
+    height: auto;
+}
+
+.titulo {
+    background-color: blue;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+hr {
+    padding: 1.5px;
+    background-color: #2ECCFA;
+}
+
+.tweet {
+    background-color: #CEE3F6;
+    margin: 1px;
+}
+
+.lista_tweets {
+    margin-left: 40%;
+    text-align: center;
+    width: 200px;
+    height: auto;
+}
+footer{
+  text-align: center;
+}
+#page #branding #access .current_page_ancestor > a:focus {color: #FF0000;
